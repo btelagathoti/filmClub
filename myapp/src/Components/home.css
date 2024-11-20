@@ -1,0 +1,10 @@
+p{
+    position: sticky;
+    border: 5px solid black;
+    top: 0;
+    display: block;
+    background-color: aqua;
+    color:black;
+    text-align: center;
+    
+}
