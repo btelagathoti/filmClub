@@ -1,33 +1,27 @@
 .Navbar {
-    background-color: rgb(219, 244, 235);
+    background-color: rgb(200 157 122);
     padding-bottom: 15px;
-
-    /* width: 100%; */
-    .ebay {
-        margin: 0 0 20px 0;
-        text-align: center;
-
+    .nav_heading {
+        display: inline;
+        padding: 10px;
+        padding-left: 100px;
     }
 
     .navbar_list {
-
-        text-align: center;
-
+        float:right;
+        display: inline;
+        padding-left: 100px;
+        padding: 10px;
         .navbar_item {
-
-            /* width: 100%; */
             padding: 10px;
             text-decoration: none;
             color: black;
         }
-
-
-        @media (max-width:768px) {
+        /* @media (max-width:768px) {
             display: none;
-        }
+        } */
     }
-
-    .navbar_search_box {
+    /* .navbar_search_box {
         display: inline;
         padding: 10px;
         position: relative;
@@ -41,39 +35,39 @@
             width: 300px;
         }
 
-    }
+    } */
 
-    .menuIcon {
+    /* .menuIcon {
         display: none;
-    }
-
+    } */
+/* 
     @media (max-width:768px) {
         .menuIcon {
             display: inline;
         }
-    }
+    } */
 
     /* side nav bar starts */
-    .none {
+    /* .none {
         display: none;
     }
 
     .block {
         display: block;
-    }
+    } */
 
 
     /* side_navbar starts here */
 
 
-    .side_navbar {
+    /* .side_navbar {
         .side_navbar_item {
             display: none;
 
         }
-    }
+    } */
 
-    @media (max-width:768px) {
+    /* @media (max-width:768px) {
 
         .side_navbar {
             padding-top: 10px;
@@ -91,7 +85,7 @@
             }
 
         }
-    }
+    } */
 
 
 

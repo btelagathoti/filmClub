@@ -6,6 +6,9 @@ import Navbar from "./Components/Navbar";
 import Contact from "./Components/Contact";
 import Privacy from "./Components/Privacy";
 import {BrowserRouter as Router,Routes,Route} from "react-router-dom";
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/js/bootstrap.min'
+
 
 const App = () =>{
   return (
