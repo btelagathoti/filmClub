@@ -1,0 +1,103 @@
+.Navbar {
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    padding-bottom: 15px;
+    .nav_heading {
+        display: inline;
+        padding: 10px;
+        padding-left: 100px;
+        font-family:cursive;
+    }
+
+    .navbar_list {
+        float:right;
+        display: inline;
+        padding-left: 100px;
+        padding: 10px;
+        .navbar_item {
+            padding: 10px;
+            text-decoration: none;
+            color: black;
+        }
+        /* @media (max-width:768px) {
+            display: none;
+        } */
+    }
+    /* .navbar_search_box {
+        display: inline;
+        padding: 10px;
+        position: relative;
+        left: 200px;
+
+        .search_box {
+            padding: 5px;
+            border-radius: 15px;
+            border-color: black;
+            box-shadow: 2px;
+            width: 300px;
+        }
+
+    } */
+
+    /* .menuIcon {
+        display: none;
+    } */
+/* 
+    @media (max-width:768px) {
+        .menuIcon {
+            display: inline;
+        }
+    } */
+
+    /* side nav bar starts */
+    /* .none {
+        display: none;
+    }
+
+    .block {
+        display: block;
+    } */
+
+
+    /* side_navbar starts here */
+
+
+    /* .side_navbar {
+        .side_navbar_item {
+            display: none;
+
+        }
+    } */
+
+    /* @media (max-width:768px) {
+
+        .side_navbar {
+            padding-top: 10px;
+            padding-left: 10px;
+            .side_navbar_item {
+                text-decoration: none;
+                text-align: center;
+                padding: 5px 15px;
+                display: block;
+                width: 50%;
+                color: black;
+                border: 1px solid #8b0c0c;
+                margin-bottom: 5px;
+                border-radius: 15px;
+            }
+
+        }
+    } */
+
+
+
+}
+.Updatesbar.grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+    .grid-item {
+        padding: 10px;
+        font-size: 15px;
+        text-align: center;
+    }
+}

@@ -1,0 +1,11 @@
+.contactUs_block {
+    margin: 25px;
+    justify-content: center;
+    display: grid;
+    
+    .messageFromContactUs{
+        padding: 20px;
+    }
+
+}
+
