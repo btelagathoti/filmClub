@@ -1,4 +1,4 @@
-import {Home, HomeTwo} from "./Components/Home";
+import {Home} from "./Components/Home";
 import {BrowserRouter as Router,Routes,Route} from "react-router-dom";
 import Loginform from "./Components/Loginform";
 import Signup from "./Components/Signup";

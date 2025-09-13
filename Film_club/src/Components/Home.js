@@ -212,12 +212,3 @@ export const Home = () => {
 
     )
 }
-
-export const HomeTwo = () => {
-    return (
-        <div>home two</div>
-    )
-}
-export default function NotFound() {
-    return <h1>404 - Page Not Found</h1>;
-  }

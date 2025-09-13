@@ -1,8 +1,6 @@
 import {useRef,React} from 'react';
 import "./contact.css"
 import "./commonStyle.css"
-import "./Loginform.js"
-// import Navbar from './Navbar';
 
 const Contact = () => {
     const inputElement = useRef();
@@ -12,8 +10,6 @@ const Contact = () => {
     }
     return (
         <div>
-            {/* <Navbar /> */}
-
             <div>
                 <div className='contactUs_block'>
                     <h1>Get In Touch</h1>

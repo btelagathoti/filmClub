@@ -3,16 +3,10 @@ import "./Practice.css";
 import { useState } from "react";
 import "react-datepicker/dist/react-datepicker.css";
 import "./home.css"
-// import Navbar from "./Navbar.js";
 import pushpa2Poster from "./images/pushpa2_mve_poster.jpg";
 import Anaadaposter from "./images/Anaada_mve_poster.jpg";
 import BachalaPoster from "./images/Bachala_mali_mve_poster.jpg";
-// import mechanicrockyPoster from "./images/mechanicrocky_mve_poster.jpg"
 import rotikapadaromancePoster from "./images/rotikapadaromance_mve_poster.jpg"
-import nationalfilmawards from "./images/national-film-awards.webp";
-import PushpaAward from "./images/pushpa_sima_award.jpg";
-import SimaAward from "./images/Siima-Award-Image.jpg"
-import Contact from "./Contact.js"
 
 const teams = [
     { name: '🎬 Production Team', roles: ['Director', 'Producer', 'Screenwriter'] },
@@ -25,15 +19,11 @@ const teams = [
 ];
 
 const Practice = () => {
-
      const [toggleState, setToggleState] = useState(1);
-        // const [bColor, setBcolor] = useState();
-        // const bgColor = () => {
-        //     setBcolor = "#4a4d4b"
-        // }
-        const toggleTab = (index) => {
-            setToggleState(index);
-        }
+     
+     const toggleTab = (index) => {
+         setToggleState(index);
+     }
     return (
         <div className="container">
             <header className="header">

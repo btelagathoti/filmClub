@@ -2,7 +2,6 @@ import { useState, React, useRef } from "react";
 import { Link } from "react-router-dom";
 import axios from 'axios';
 import { useNavigate } from "react-router-dom";
-// import Navbar from "./Navbar";
 import "./Loginform.css"
 import "./Signup.css"
 import "./commonStyle.css"
@@ -42,8 +41,6 @@ const Loginform = () => {
 
     return (
         <div>
-            {/* <Navbar /> */}
-
             <div className="container">
                 <form className="signupForm" onSubmit={handleSubmit}>
                     <h1 className="heading">Login</h1>
