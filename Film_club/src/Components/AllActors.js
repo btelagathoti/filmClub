@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import axios from 'axios';
 import './AllActors.css';
 import { useNavigate } from "react-router-dom";
@@ -63,7 +63,7 @@ const AllActors = () => {
 
     useEffect(() => {
         filterActors();
-    }, [actors, selectedRoles]);
+    }, [actors, selectedRoles, filterActors]);
 
     // Close dropdowns when clicking outside
     useEffect(() => {
@@ -94,7 +94,7 @@ const AllActors = () => {
         }
     };
 
-    const filterActors = () => {
+    const filterActors = useCallback(() => {
         if (selectedRoles.length === 0) {
             setFilteredActors(actors);
         } else {
@@ -105,7 +105,7 @@ const AllActors = () => {
         }
         setDisplayCount(5); // Reset display count when filtering
         setExpandedCards(new Set()); // Reset expanded cards
-    };
+    }, [actors, selectedRoles]);
 
     const toggleRoleSelection = (role) => {
         setSelectedRoles(prev => {

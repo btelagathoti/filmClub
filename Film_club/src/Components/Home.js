@@ -59,7 +59,7 @@ export const Home = () => {
                                 <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 
                                 <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="" className="button">Go somewhere</a>
+                                <a href="#" className="button">Go somewhere</a>
                             </div>
                         </div>
                         <div className="banner">
@@ -167,21 +167,21 @@ export const Home = () => {
                         <div className="carousel-item active">
                             <img src={SimaAward} className="d-block w-100  homepagebg_img" alt="img1"></img>
                             <div className="carousel-caption d-none d-md-block">
-                                <a className="singleroom" aria-label="take me to singleroom" href=''><h1>some thing About It</h1></a>
+                                <a className="singleroom" aria-label="take me to singleroom" href='#'><h1>some thing About It</h1></a>
 
                             </div>
                         </div>
                         <div className="carousel-item">
                             <img src={PushpaAward} className="d-block w-100 homepagebg_img" alt="img2"></img>
                             <div className="carousel-caption d-none d-md-block">
-                                <a className="deluxe" aria-label="take me to deluxe" href=''><h1>some thing About It</h1></a>
+                                <a className="deluxe" aria-label="take me to deluxe" href='#'><h1>some thing About It</h1></a>
 
                             </div>
                         </div>
                         <div className="carousel-item">
                             <img src={nationalfilmawards} className="d-block w-100 homepagebg_img" alt="img3"></img>
                             <div className="carousel-caption d-none d-md-block">
-                                <a className="suite" aria-label="take me to suite" href=''><h1>some thing About It</h1></a>
+                                <a className="suite" aria-label="take me to suite" href='#'><h1>some thing About It</h1></a>
 
                             </div>
                         </div>

@@ -65,7 +65,7 @@ const Signup = () => {
         }
 
         try {
-            const result = await axios.post('http://localhost:3001/signup', formData, {
+            await axios.post('http://localhost:3001/signup', formData, {
                 headers: {
                     'Content-Type': 'multipart/form-data'
                 }
@@ -92,10 +92,6 @@ const Signup = () => {
         }
     };
 
-    const inputFocus = () => {
-        inputElement.current.focus();
-        console.log("iam from inputfocus");
-    }
 
     return (
         <div>

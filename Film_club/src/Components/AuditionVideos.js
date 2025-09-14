@@ -2,10 +2,6 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import axios from "axios";
 
-const rasaLabels = [
-  "Shringara", "Hasya", "Karuna", "Raudra", "Veera", "Bhayanaka", "Bibhatsa", "Adbutha", "Shantha"
-];
-
 const DEFAULT_THUMB = "https://via.placeholder.com/400x250?text=Audition+Video";
 
 const AuditionVideos = () => {
